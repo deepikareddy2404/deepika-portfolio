@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/layout/Navbar.jsx'
 import Footer from './components/layout/Footer.jsx'
 import SectionDots from './components/layout/SectionDots.jsx'
@@ -16,9 +15,7 @@ function App() {
       <Navbar />
       <SectionDots />
       <main>
-        <Routes>
-          <Route path="/" element={<Home />} />
-        </Routes>
+        <Home />
       </main>
       <Footer />
       <ScrollToTop />
