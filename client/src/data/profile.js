@@ -12,7 +12,7 @@ export const profile = {
     'Exploring AI-Powered Products',
     'Learning Cloud Deployment',
   ],
-  profileImage: 'images/profile.jpg',
+  profileImage: 'images/profile.jpeg',
   resumeUrl: 'resume/Deepika_Reddy_Seelam_Resume.pdf',
   location: 'Vijayawada, Andhra Pradesh, India',
   email: 'deepikareddy0624@gmail.com',
