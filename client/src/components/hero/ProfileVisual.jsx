@@ -48,13 +48,13 @@ export default function ProfileVisual() {
         style={{ perspective: '600px' }}
       >
         <motion.img
-          src={profile.profileImage}
-          alt={profile.name}
-          animate={{ rotateX: tilt.rx, rotateY: tilt.ry, scale: 1.03 }}
-          transition={{ type: 'spring', stiffness: 200, damping: 20 }}
-          className="w-full h-full object-cover"
-          style={{ transformStyle: 'preserve-3d' }}
-        />
+  src={profile.profileImage}
+  alt={profile.name}
+  animate={{ rotateX: tilt.rx, rotateY: tilt.ry, scale: 1.03 }}
+  transition={{ type: 'spring', stiffness: 200, damping: 20 }}
+  className="w-full h-full object-cover"
+  style={{ transformStyle: 'preserve-3d', objectPosition: 'center 30%' }}
+/>
       </div>
     </motion.div>
   )

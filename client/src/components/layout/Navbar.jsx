@@ -36,7 +36,7 @@ export default function Navbar() {
       <Container className="flex items-center justify-between">
         <a href="#top" className="flex items-center gap-2.5 group">
           <span className="h-8 w-8 rounded-full overflow-hidden border border-white/15 group-hover:border-highlight/60 transition-colors shrink-0">
-            <img src={profile.profileImage} alt="" className="h-full w-full object-cover" />
+            <img src={profile.profileImage} alt="" className="h-full w-full object-cover" style={{ objectPosition: 'center 20%' }} />
           </span>
           <span className="font-display text-base font-bold text-white hidden sm:inline">
             {profile.name.split(' ')[0]}<span className="text-highlight">.</span>
@@ -98,7 +98,7 @@ export default function Navbar() {
             <div className="flex items-center justify-between p-6">
               <div className="flex items-center gap-2.5">
                 <span className="h-8 w-8 rounded-full overflow-hidden border border-white/15">
-                  <img src={profile.profileImage} alt="" className="h-full w-full object-cover" />
+                  <img src={profile.profileImage} alt="" className="h-full w-full object-cover" style={{ objectPosition: 'center 20%' }} />
                 </span>
                 <span className="font-display text-base font-bold text-white">{profile.name.split(' ')[0]}.</span>
               </div>
