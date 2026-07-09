@@ -36,7 +36,11 @@ export default function About() {
                 <FiHeart size={18} />
                 <span className="font-mono text-xs uppercase tracking-widest">My Story</span>
               </div>
-              <p className="text-white/75 leading-relaxed">{profile.story}</p>
+              <div className="text-white/75 leading-relaxed space-y-4">
+                {profile.story.split('\n\n').map((paragraph, i) => (
+                  <p key={i}>{paragraph}</p>
+                ))}
+              </div>
             </GlassCard>
 
             <GlassCard className="p-7 sm:p-9">

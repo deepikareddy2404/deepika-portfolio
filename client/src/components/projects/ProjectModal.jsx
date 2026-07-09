@@ -80,7 +80,7 @@ export default function ProjectModal({ project, onClose }) {
                     href={project.liveUrl}
                     target="_blank"
                     rel="noreferrer"
-                    className="inline-flex items-center gap-2 text-sm font-medium px-4 py-2 rounded-full bg-gradient-to-r from-primary to-highlight text-[#090909] shadow-[0_0_18px_-6px_rgba(199,90,90,0.5)] hover:shadow-[0_0_26px_-4px_rgba(217,122,108,0.6)] transition-all duration-300"
+                    className="inline-flex items-center gap-2 text-sm font-medium px-4 py-2 rounded-full bg-gradient-to-r from-primary to-highlight text-[#090909] shadow-[0_0_18px_-6px_rgba(155,143,224,0.45)] hover:shadow-[0_0_26px_-4px_rgba(211,211,255,0.55)] transition-all duration-300"
                   >
                     <FiExternalLink size={15} /> Live Demo
                   </a>

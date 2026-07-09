@@ -32,7 +32,7 @@ export default function SkillCard({ name }) {
       <div
         className={`absolute -inset-1 opacity-0 transition-opacity duration-300 ${hovered ? 'opacity-100' : ''}`}
         style={{
-          background: 'radial-gradient(120px circle at center, rgba(232,168,124,0.16), transparent 70%)',
+          background: 'radial-gradient(120px circle at center, rgba(211,211,255,0.18), transparent 70%)',
         }}
       />
       <h4 className="relative font-display text-sm sm:text-base font-semibold text-white">{name}</h4>

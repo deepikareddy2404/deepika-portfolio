@@ -9,9 +9,9 @@ export const internships = [
     duration: 'Ongoing',
     responsibilities: [
       "Contributed to QISE's quantum computing education initiatives",
-      'Supported Learning Management System (LMS) operations',
-      'Supported IT operations and student engagement activities',
-      'Collaborated with cross-functional teams to enhance learning experiences',
+      'Kept the Learning Management System (LMS) running smoothly for course content and enrollment',
+      'Handled IT support requests and helped run student engagement activities',
+      'Worked with teams across departments to improve how course material was delivered',
     ],
     technologies: [],
   },

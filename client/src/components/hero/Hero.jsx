@@ -52,9 +52,10 @@ export default function Hero() {
           </motion.p>
 
           <motion.p variants={item} className="text-lg text-white/70 max-w-xl leading-relaxed">
-            Building scalable full-stack applications with modern web technologies,
-            exploring AI-powered solutions, and caring about clean, intuitive user
-            experiences along the way.
+            I design and build scalable full-stack applications that solve real-world
+            problems. With a strong foundation in modern web technologies and AI, I focus
+            on creating secure, efficient, and user-friendly digital experiences that
+            make an impact.
           </motion.p>
 
           <motion.div variants={item} className="font-display text-lg sm:text-xl h-8 text-white/50">

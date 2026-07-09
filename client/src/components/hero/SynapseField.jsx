@@ -5,7 +5,7 @@ import { useReducedMotion } from '../../hooks/useReducedMotion.js'
 // content — nodes connect into synapses when close, and gently bend toward
 // the cursor like a field responding to attention. It's a direct visual
 // metaphor for "AI Engineer" rather than generic decorative particles.
-const COLORS = ['#C75A5A', '#D97A6C', '#E8A87C']
+const COLORS = ['#7C6FD1', '#9B8FE0', '#D3D3FF']
 
 export default function SynapseField() {
   const canvasRef = useRef(null)
@@ -74,7 +74,7 @@ export default function SynapseField() {
           const dist = Math.hypot(a.x - b.x, a.y - b.y)
           if (dist < linkDist) {
             const opacity = (1 - dist / linkDist) * 0.35
-            ctx.strokeStyle = `rgba(217, 122, 108, ${opacity})`
+            ctx.strokeStyle = `rgba(155, 143, 224, ${opacity})`
             ctx.lineWidth = 0.6
             ctx.beginPath()
             ctx.moveTo(a.x, a.y)

@@ -32,7 +32,7 @@ export default function ProfileVisual() {
         className="absolute -inset-2 rounded-full opacity-90"
         style={{
           background:
-            'conic-gradient(from 0deg, #C75A5A, #D97A6C, #E8A87C, #C75A5A)',
+            'conic-gradient(from 0deg, #7C6FD1, #9B8FE0, #D3D3FF, #7C6FD1)',
           filter: 'blur(2px)',
         }}
       />

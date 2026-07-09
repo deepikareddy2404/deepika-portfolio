@@ -22,13 +22,13 @@ export const achievements = [
   {
     id: 'ach-coding-contests',
     title: 'Coding Contest Participation',
-    description: 'Participated in several online and offline coding contests to build problem-solving skills.',
+    description: 'Regular participant in online and offline coding contests, sharpening problem-solving under time pressure.',
     icon: 'code',
   },
   {
     id: 'ach-coordinator',
     title: 'Event Coordinator',
-    description: 'Served as Coordinator for a coding contest and Prakruthi Club events, showcasing leadership and organizational abilities.',
+    description: 'Coordinated a coding contest and events for the Prakruthi Club, handling planning and logistics end to end.',
     icon: 'users',
   },
 ]
