@@ -1,115 +1,80 @@
-// Real projects, descriptions, and tech stacks. Where a detail isn't
-// confirmed (e.g. a public repo link), that field is simply omitted
-// rather than invented.
+// Projects as listed on the resume. Fields without confirmed details
+// (e.g. a public link) are omitted rather than invented.
 
 export const projects = [
   {
-    id: 'futureme-ai',
-    title: 'FutureMe AI',
-    tagline: 'Full-Stack AI Personal Growth SaaS',
-    category: 'Full Stack · AI',
-    status: null,
-    featured: true,
-    tech: ['React', 'Node.js', 'Express', 'PostgreSQL', 'Google Gemini API'],
-    coverGradient: 'from-primary/40 via-accent/30 to-highlight/30',
-    liveUrl: 'https://future-me-flax.vercel.app',
-    overview:
-      'A full-stack AI-powered personal growth SaaS built with React, Node.js, Express, PostgreSQL, and the Google Gemini API — deployed on Vercel and Render with performance-optimized, lazy-loaded routes.',
-    features: [
-      '20+ features including AI future letters, goal roadmaps, habit tracking, and mood analysis',
-      'An AI career coach built on the Gemini API',
-      'JWT authentication across the application',
-      'A 13-table PostgreSQL schema',
-      'An AI memory system that personalizes every response using real user data',
-    ],
-    process: {
-      label: 'Architecture',
-      steps: [
-        { name: 'Client', detail: 'React frontend, deployed on Vercel with lazy-loaded routes' },
-        { name: 'API', detail: 'Node.js + Express, with JWT authentication' },
-        { name: 'Database', detail: 'PostgreSQL — 13-table schema, hosted on Render' },
-        { name: 'AI Layer', detail: 'Google Gemini API + a memory system personalizing responses from real user data' },
-      ],
-    },
-  },
-  {
-    id: 'thinkboard',
-    title: 'ThinkBoard',
-    tagline: 'MERN Stack Application',
-    category: 'Full Stack',
-    status: null,
-    tech: ['React (Hooks)', 'Node.js', 'Express', 'MongoDB', 'REST APIs'],
-    coverGradient: 'from-accent/40 via-primary/30 to-highlight/30',
-    liveUrl: null,
-    overview:
-      'A full-stack MERN application for managing and organizing content, with RESTful APIs and a dynamic React UI built on hooks. Deployed on Render with production-ready configuration.',
-    features: [
-      'RESTful API design for content management',
-      'Dynamic, hook-driven React UI',
-      'MongoDB for persistent data storage',
-      'Production-ready deployment configuration on Render',
-    ],
-    process: {
-      label: 'Architecture',
-      steps: [
-        { name: 'Client', detail: 'React UI built with hooks' },
-        { name: 'API', detail: 'Express REST APIs for content management' },
-        { name: 'Database', detail: 'MongoDB' },
-        { name: 'Hosting', detail: 'Render, production-ready configuration' },
-      ],
-    },
-  },
-  {
     id: 'explainable-ai-stock-prediction',
     title: 'Explainable AI for Stock Market Trend Prediction',
-    tagline: 'Investment Decision Support System',
+    tagline: 'Investment Decision Support',
     category: 'Machine Learning',
     status: 'Ongoing',
     tech: ['Random Forest', 'LSTM', 'SHAP', 'LIME'],
     coverGradient: 'from-highlight/40 via-primary/30 to-accent/30',
     liveUrl: null,
     overview:
-      'An Explainable AI-based stock market trend prediction system using Random Forest and LSTM models, with SHAP and LIME integrated to keep every prediction transparent and interpretable for investment decisions.',
+      'An Explainable AI stock trend prediction system built with Random Forest and LSTM. RSI, MACD and moving-average features are engineered from market data, and SHAP and LIME explain individual predictions.',
     features: [
-      'Random Forest and LSTM models for market trend forecasting',
-      'SHAP and LIME integration for interpretable predictions',
-      'Feature engineering using technical indicators — RSI, MACD, and Moving Average',
-      'Model evaluation using Accuracy, Precision, Recall, and F1-Score',
+      'Random Forest and LSTM models for stock trend prediction',
+      'Engineered RSI, MACD and moving-average features',
+      'SHAP and LIME to explain individual predictions',
     ],
     process: {
       label: 'Approach',
       steps: [
-        { name: 'Data Prep', detail: 'Feature engineering with RSI, MACD, and Moving Average indicators' },
-        { name: 'Modeling', detail: 'Random Forest & LSTM for trend forecasting' },
-        { name: 'Explainability', detail: 'SHAP & LIME for transparent, interpretable predictions' },
-        { name: 'Evaluation', detail: 'Accuracy, Precision, Recall, F1-Score' },
+        { name: 'Features', detail: 'RSI, MACD and moving-average indicators' },
+        { name: 'Modeling', detail: 'Random Forest and LSTM for trend prediction' },
+        { name: 'Explainability', detail: 'SHAP and LIME explain individual predictions' },
       ],
     },
   },
   {
-    id: 'driver-behaviour-monitoring',
-    title: 'Real-Time Driver Behavior & Safety Monitoring',
-    tagline: 'System and Method for Driver Safety Monitoring',
-    category: 'Machine Learning · Sensor Fusion',
+    id: 'futureme-ai',
+    title: 'FutureMe AI',
+    tagline: 'Full Stack AI Personal Growth SaaS',
+    category: 'Full Stack · AI',
     status: null,
-    tech: ['Facial Tracking', 'OBD-II Telematics', 'Accelerometer & Gyroscope Sensors', 'Machine Learning'],
-    coverGradient: 'from-primary/40 via-highlight/30 to-accent/30',
-    liveUrl: null,
+    featured: true,
+    tech: ['React', 'Node.js', 'Express', 'PostgreSQL', 'Gemini API', 'JWT'],
+    coverGradient: 'from-primary/40 via-accent/30 to-highlight/30',
+    liveUrl: 'https://future-me-flax.vercel.app',
     overview:
-      'An AI-based system for monitoring driver behavior and enhancing road safety using facial tracking, OBD-II telematics, and accelerometer/gyroscope sensor data.',
+      "A full-stack AI SaaS built with React, Node.js, Express and PostgreSQL that sends each user's goals, habits and mood history to the Gemini API for personalized responses.",
     features: [
-      'Multi-sensor data fusion (facial tracking, OBD-II, accelerometer, gyroscope)',
-      'Detection of driver fatigue, distraction, and unsafe driving behaviors',
-      'Machine learning-based behavioral analysis',
-      'Reduced false positives across varying road conditions',
+      "Goals, habits and mood history sent to the Gemini API for personalized responses",
+      'JWT authentication',
+      '13-table PostgreSQL schema',
     ],
     process: {
-      label: 'Approach',
+      label: 'Architecture',
       steps: [
-        { name: 'Sensor Input', detail: 'Facial tracking + OBD-II telematics + accelerometer & gyroscope' },
-        { name: 'Data Fusion', detail: 'Multi-sensor data integrated into a single behavioral signal' },
-        { name: 'ML Analysis', detail: 'Machine learning algorithms for behavioral analysis' },
-        { name: 'Output', detail: 'Fatigue, distraction, and unsafe-driving detection with reduced false positives' },
+        { name: 'Client', detail: 'React frontend' },
+        { name: 'API', detail: 'Node.js + Express with JWT authentication' },
+        { name: 'Database', detail: 'PostgreSQL — 13-table schema' },
+        { name: 'AI Layer', detail: "Gemini API fed with the user's goals, habits and mood history" },
+      ],
+    },
+  },
+  {
+    id: 'student-management-system',
+    title: 'Student Management System',
+    tagline: 'Full Stack Java Application',
+    category: 'Full Stack · Java',
+    status: null,
+    tech: ['Spring Boot', 'Hibernate', 'Oracle', 'Spring Security'],
+    coverGradient: 'from-accent/40 via-primary/30 to-highlight/30',
+    liveUrl: null,
+    overview:
+      'A full-stack Java application built with Spring Boot, Hibernate and Oracle, featuring CRUD operations and Spring Security role-based access for Admin and Staff.',
+    features: [
+      'CRUD operations for student records',
+      'Spring Security role-based access (Admin/Staff)',
+    ],
+    process: {
+      label: 'Architecture',
+      steps: [
+        { name: 'Application', detail: 'Spring Boot' },
+        { name: 'Persistence', detail: 'Hibernate ORM with an Oracle database' },
+        { name: 'Security', detail: 'Spring Security role-based access (Admin/Staff)' },
       ],
     },
   },

@@ -5,7 +5,7 @@ const base =
 
 const variants = {
   primary:
-    'bg-gradient-to-r from-primary to-highlight text-[#090909] shadow-[0_0_20px_-6px_rgba(155,143,224,0.5)] hover:shadow-[0_0_30px_-4px_rgba(211,211,255,0.6)]',
+    'bg-gradient-to-r from-primary to-highlight text-[#090909] shadow-[0_0_20px_-6px_rgba(155,143,224,0.55)] hover:shadow-[0_0_30px_-4px_rgba(124,111,209,0.65)]',
   ghost:
     'glass text-white hover:border-highlight/50 border border-white/10',
   outline:

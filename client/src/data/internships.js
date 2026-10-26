@@ -1,5 +1,5 @@
-// Real internship experience. Where an exact date range isn't known,
-// duration is left null rather than guessed.
+// Internship experience as listed on the resume. Where an exact date
+// range isn't given, duration is left null rather than guessed.
 
 export const internships = [
   {
@@ -8,33 +8,22 @@ export const internships = [
     role: 'Intern',
     duration: 'Ongoing',
     responsibilities: [
-      "Contributed to QISE's quantum computing education initiatives",
-      'Kept the Learning Management System (LMS) running smoothly for course content and enrollment',
-      'Handled IT support requests and helped run student engagement activities',
-      'Worked with teams across departments to improve how course material was delivered',
+      'Built an AI email ticketing system that auto-replies using a pre-trained model',
+      "Administered QISE's LMS (TrainerCentral/Zoho) with SAML/SSO integration for APSSDC",
+      'Cleaned and managed large student enrollment and progress datasets for reporting',
     ],
-    technologies: [],
+    technologies: ['Node.js', 'TypeScript', 'PostgreSQL', 'pgvector', 'OpenAI API', 'Gmail API'],
   },
   {
     id: 'intern-infosys',
-    company: 'Infosys Springboard Internship 7.0',
+    company: 'Infosys Springboard',
     role: 'Project Intern',
     duration: null,
     responsibilities: [
-      'Working on the Intelligent Cognitive Alarm Platform as part of a collaborative team project',
-      'Gaining hands-on experience in software development and project execution under mentor guidance',
+      'Completed the Intelligent Cognitive Alarm Platform project',
+      'Worked on the recommendation engine, ML/analytics and frontend',
+      'Handled Docker deployment on Render and Vercel',
     ],
-    technologies: [],
-  },
-  {
-    id: 'intern-cisco',
-    company: 'Cisco Virtual Internship',
-    role: 'Cybersecurity',
-    duration: null,
-    responsibilities: [
-      'Gained practical experience using Cisco Packet Tracer',
-      'Learned core cybersecurity concepts',
-    ],
-    technologies: ['Cisco Packet Tracer'],
+    technologies: ['FastAPI', 'React', 'Vite', 'PostgreSQL', 'Docker'],
   },
 ]

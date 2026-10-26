@@ -2,6 +2,12 @@
 
 export const achievements = [
   {
+    id: 'ach-iic',
+    title: 'IIC Regional Meet — Level-2 Poster Presentation',
+    description: "Selected for the Level-2 Poster Presentation at the IIC Regional Meet (MoE's Innovation Cell & AICTE).",
+    icon: 'award',
+  },
+  {
     id: 'ach-math-poster',
     title: '2nd Place — Poster Presentation',
     description: 'Secured 2nd place in a Poster Presentation organized by the Math Club.',

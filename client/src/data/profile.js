@@ -38,8 +38,8 @@ export const profile = {
   // All counts below are real and verifiable.
   stats: [
     { label: 'CGPA', value: 9.11, suffix: '' },
-    { label: 'Projects', value: 4, suffix: '' },
-    { label: 'Internships', value: 3, suffix: '' },
-    { label: 'Certifications', value: 6, suffix: '' },
+    { label: 'Projects', value: 3, suffix: '' },
+    { label: 'Internships', value: 2, suffix: '' },
+    { label: 'Certifications', value: 5, suffix: '' },
   ],
 }
